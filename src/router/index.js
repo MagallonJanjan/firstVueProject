@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../views/Home.vue' 
 
 const routes = [
   {
@@ -18,13 +18,13 @@ const routes = [
   {
       path : '/services',
       name: 'Services',
-      component: () => import('../views/Services.vue')
+      component: () => require('../views/Services.vue')
 
   },
   {
     path : '/contact',
     name : 'Contact',
-    component: () => import('../views/Contact.vue')
+    component: () => require('../views/Contact.vue')
   }
   
 ]

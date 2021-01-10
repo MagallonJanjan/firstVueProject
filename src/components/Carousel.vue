@@ -20,8 +20,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-
 </template>
 
 <script>
@@ -31,7 +29,7 @@ export default {
 </script>
 
 <style scoped>
-
+      
 #sliders{
   height: 550px;
 }
